@@ -1,13 +1,23 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #1a1a1a;
+    background-color: lightblue;
     color: white;
     margin: 0;
     padding: 0;
 }
 
+#wrapper {
+    background-color: black;
+    /*
+    min-width: 960px;
+    max-width: 2048px;
+    */
+    margin-left: auto;
+    margin-right: auto;
+}
+
 header {
-    background-color: #333333;
+    background-color: white;
     text-align: center;
     padding: 20px;
 }
