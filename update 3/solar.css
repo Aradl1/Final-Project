@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    background-color: black;
+    /*
+    min-width: 960px;
+    max-width: 2048px;
+    */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+nav {
+    font-size: 1.2em;
+    text-align: center;
+    background-color: white;
+}
+
+nav a {text-decoration: none; }
+
+nav li {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    border-bottom: 1px solid;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+}
+
+.planet-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.planet {
+    background-color: #555555;
+    padding: 20px;
+    margin: 15px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+}
